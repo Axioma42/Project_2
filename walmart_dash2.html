@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WALMART MEXICO INTERNET DELIVERY</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body style="background-image: url(&quot;background.png&quot;);">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header"> <a class="navbar-brand" href="#">Walmart</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="home_walmart.html">Home</a></li>
+          <li><a href="walmart_dash.html">Delivery by Store</a></li>
+          <li><a href="walmart_dash3.html">Avg Distance</a></li>
+          <li><a href="map.html">Map Stores and orders</a></li>
+          <li><a href="map2.html">Map Trade Areas</a></li>
+        </ul>
+        
+            <div class="input-group-btn"> <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i> </button> </div>
+          </div>
+        </form>
+      </div>
+    </nav>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p class="MsoNormal" style="text-align: center;"><span style="font-size:26.0pt;line-height:107%;
+      mso-ansi-language:ES-MX" lang="ES-MX"><span style="font-family: Agency FB;"><br>
+</span></span></p>
+    <p class="MsoNormal" style="text-align: center;"><span style="font-size:26.0pt;line-height:107%;
+      mso-ansi-language:ES-MX" lang="ES-MX"><span style="font-family: Agency FB;">WALMART
+          MEXICO INTERNET DELIVERY</span> </span></p>
+          <p class="MsoNormal" style="text-align: center;"><span style="font-size:26.0pt;line-height:107%;
+            mso-ansi-language:ES-MX" lang="ES-MX"><span style="font-family: Agency FB;">Sells by Day and Delivery Type</p>>
+          <p class="MsoNormal" style="text-align: center;"><span style="font-size:26.0pt;line-height:107%;
+            mso-ansi-language:ES-MX" lang="ES-MX"><span style="font-family: Agency FB;"><br>
+</span></span></p>
+    <head>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  
+  <body>
+    
+    <div id="myDiv" style="height: 600px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+    <script>
+      var trace1 = {
+  x: ['Sun',	'Mon',	'Tue',	'Wed',	'Thu',	'Fri',	'Sat'],
+  y: [36451,38204,40876,29352,44518,31475,28379],
+  name: 'Delivery',
+  type: 'bar',
+  backgroundColor: "transparent"
+};
+
+var trace2 = {
+  x: ['Sun',	'Mon',	'Tue',	'Wed',	'Thu',	'Fri',	'Sat'],
+  y: [11951,10704,13346,10200,10991,13234,11454],
+  name: 'Pickup',
+  type: 'bar'
+};
+
+var data = [trace1, trace2];
+
+var layout = {barmode: 'stack'};
+
+Plotly.newPlot('myDiv', data, layout, {showSendToCloud:true});   </script>
+    <p><a href="walmart_dash3.html">NEXT</a></p>  
+</body>
